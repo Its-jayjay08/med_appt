@@ -1,0 +1,67 @@
+body {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: orange;
+}
+
+.label-2 {
+    padding-right: 200px;
+}
+
+.label-1 {
+    padding-right: 230px;
+}
+
+.contact-info {
+    background-color: rgb(224, 242, 255);
+    border-radius: 30px;
+    padding: 3px 0 30px 0;
+    margin: 60px 30px 60px 100px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.personal-info {
+    border-radius: 10px;
+    border: 1px solid orange;
+    padding: 7px 60px 7px 60px;
+}
+
+.personal-info:hover {
+    background-color: plum;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn {
+    border-radius: 30px;
+    border: 1px solid orange;
+    padding: 10px 120px 10px 120px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: orange;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(250, 169, 250);
+    border: 1px solid purple;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.btn-select {
+    margin: 50px 0 50px 0;
+}
+
+.login {
+    margin: 0 0 -15px 0;
+}
